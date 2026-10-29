@@ -10,6 +10,7 @@ Claude Code sub-agents for day-to-day work as a digital marketer. Each agent liv
 | `weekly-client-reporter` | Weekly client performance reports across channels |
 | `tracking-setup-auditor` | GA4, GTM, Google Ads/Meta conversions, Consent Mode v2 audits |
 | `proposal-writer` | Proposals and quotes for new clients |
+| `campaign-launcher` | Builds Google Ads Search (RSA) and PMax campaigns straight from a blueprint via Supermetrics, paused, with pre-flight checks and a verify diff |
 
 ## Usage
 
