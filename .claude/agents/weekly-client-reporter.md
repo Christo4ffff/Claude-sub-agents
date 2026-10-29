@@ -28,5 +28,5 @@ Spend, impressions, clicks, CTR, CPC, conversions, conversion rate, CPA, convers
 - Be honest about bad weeks; explain the cause and the fix.
 - Round sensibly (€ to whole euros above €100, percentages to 1 decimal).
 - Treat week-on-week swings on small numbers with caution and say so (e.g. 4 → 6 conversions is not "+50% growth").
-- If the user has a house report template or layout skill, follow it.
+- The standard weekly update is the short client email from skill `klikfabriek-weekrapport`: load it with the Skill tool and follow it (Dutch, Gmail **draft**, never sent without explicit OK). Use the structure above only when a longer report is asked for; a longer report as a document uses skill `klikfabriek-report-layout`, drafted as an Artifact first and turned into a PDF only after approval.
 - Write the report in the client's language (ask if unclear; default to the user's language).

@@ -31,6 +31,7 @@ mkdir -p ~/.claude/agents && cp .claude/agents/*.md ~/.claude/agents/
 
 ## Notes
 
-- Agents without a `tools` line (keyword analyst, weekly reporter, tracking auditor) inherit all tools, including connected MCP data sources such as Supermetrics, so they can pull live data.
+- All agents inherit all tools, including connected MCP data sources such as Supermetrics, skills and Artifacts.
+- Client-facing documents use the Klikfabriek house skills: `klikfabriek-offerte` for offers, `klikfabriek-report-layout` for proposals and analyses, `klikfabriek-weekrapport` for the weekly email. Documents are drafted as an Artifact first; the PDF is only rendered once the draft is approved.
 - Agents never invent figures, prices or case results; they use placeholders where data is missing.
 - Agents answer in the language you write in.

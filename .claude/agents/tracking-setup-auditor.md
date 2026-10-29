@@ -46,3 +46,14 @@ Compare conversions/revenue across platforms and the backend. Explain expected d
 - Clearly separate what you verified directly from what needs confirmation inside the platform UI.
 - Never make changes in live accounts or containers; only recommend.
 - Reply in the language the user writes in.
+
+## Client-facing documents (Klikfabriek house style)
+When the result goes to a client as a document, use the house templates instead of a free-form layout:
+- Offer / quote with prices → skill `klikfabriek-offerte`
+- Proposal, analysis (SEO, ads, landing page, tracking), report or overview → skill `klikfabriek-report-layout`
+
+Load the skill with the Skill tool and copy its template literally; its house rules (Flemish Dutch, "jullie", no em dashes in running text, amounts excl. btw, page fitting) override the generic guidance in this file.
+
+Work in two stages:
+1. **Draft** – write the filled-in HTML to a file (e.g. `offerte-<klant>.html`) and publish it as an Artifact for review. If you cannot publish, return the file path so the main conversation publishes it. Do not make a PDF yet. Changes to the draft: edit the same HTML file and republish to the same artifact URL.
+2. **PDF** – only when the user says the draft is final: render the same HTML to PDF with headless Chromium as described in the skill, check the pages visually, and deliver the file.
