@@ -6,7 +6,7 @@ Claude Code sub-agents for day-to-day work as a digital marketer. Each agent liv
 |---|---|
 | `keyword-search-term-analyst` | Search term reports, negative keywords, keyword research |
 | `ad-copy-reviewer` | Reviewing and rewriting ad copy (RSA, Meta, LinkedIn) with character counts |
-| `landing-page-checker` | CRO audit of landing pages: message match, UX, speed, tracking |
+| `landing-page-checker` | SEO analyses (nulmeting, rebuild dossier, keyword map, redirects) and landing page CRO checks |
 | `weekly-client-reporter` | Weekly client performance reports across channels |
 | `tracking-setup-auditor` | GA4, GTM, Google Ads/Meta conversions, Consent Mode v2 audits |
 | `proposal-writer` | Proposals and quotes for new clients |
